@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    padding-left:10%;
+    padding-right:10%;
+    background: #e74f4f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: seashell;
+    padding-bottom: 40px;
+    box-shadow: 0 8px 8px -6px black;
+    position: absolute;
+}
+
+span{
+    margin-right: 20px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.over{
+    box-shadow: 0 8px 8px -6px black;
+    padding: 20px;
+    background: #ff4d4d;
+    position: relative;
+}
+
+img{
+    height: 50vh;
+    width: 50vh;
+    box-shadow: -4px 8px 8px -4px #791d1d;
+}
+img:hover{
+    transform: scale(1.04);
+    transition: 500ms all ease-in;
+    
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    padding-top: 5%;
+    padding-bottom: 5px;
+}
+.t-center{
+    text-align: center;
+}
+.caption{
+    margin-bottom: 5px;
+}
+li{
+    margin-bottom: 3px;
+    /* padding-left: 10px; */
+    list-style-type: none;
+    font-weight: lighter;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+.header-text > h1 {
+    margin-bottom: 2px;
+    font-size: 2.5em;
+}
+
+.header-text > h4 {
+    margin-bottom: 2%;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+.header-text{
+    box-shadow: 0 8px 8px -6px black;
+    position: sticky;
+    top: 0%;
+    background: #ff4d4d;;
+}
+
+.timeline >p{
+    font-style: oblique;
+    margin-bottom: 15px;
+}
+
+/******* End of styling ********/
