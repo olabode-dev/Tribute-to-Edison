@@ -61,6 +61,10 @@ li{
 hr{
     margin-top: 10px;
     margin-bottom: 18px;
+    border-radius: 100%;
+    background: #e74f4f;
+    color: #e74f4fb0;
+    
 }
 .header-text > h1 {
     margin-bottom: 2px;
